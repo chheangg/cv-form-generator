@@ -1,0 +1,6 @@
+.preview-container {
+	display: grid;
+	position: sticky;
+	max-height: 100vh;
+	grid-template-columns: 1fr 2fr; 
+}

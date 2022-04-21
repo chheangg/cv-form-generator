@@ -1,5 +1,8 @@
 /* eslint-disable no-useless-constructor */
 import React from 'react';
+import '../styles/preview.scss';
+import GeneralPreview from './generalpreview';
+import DescribePreview from './describepreview';
 
 class Preview extends React.Component {
   constructor(props) {
@@ -8,8 +11,15 @@ class Preview extends React.Component {
 
   render() {
     return (
-      <div>
+      <div className='preview-container'>
+        <GeneralPreview />
+        <DescribePreview />
+        <div className='edu-prev-container'>
 
+        </div>
+        <div className='pra-prev-container'>
+
+        </div>
       </div>
     )
   }
