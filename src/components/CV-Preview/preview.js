@@ -12,12 +12,13 @@ class Preview extends React.Component {
   }
 
   render() {
+    const {generalInfo, briefInfo, educationInfo, practicalInfo} = this.props;
     return (
       <div className='preview-container'>
-        <GeneralPreview />
-        <DescribePreview />
-        <EducationPreview />
-        <PracticalPreview />
+        <GeneralPreview user={generalInfo}/>
+        <DescribePreview briefInfo={briefInfo}/>
+        <EducationPreview educationInfo={educationInfo}/>
+        <PracticalPreview practicalInfo={practicalInfo}/>
       </div>
     )
   }
