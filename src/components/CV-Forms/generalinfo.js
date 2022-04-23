@@ -17,6 +17,8 @@ class GeneralInfo extends React.Component {
               <input type='text' id='first-name' placeholder='John'></input>
               <label htmlFor='last-name'>Last Name</label>
               <input type='text' id='last-name' placeholder='Smith'></input>
+              <label htmlFor='email'>Title / Role</label>
+              <input type='text' id='title' placeholder='Senior Web Developer'></input>
               <label htmlFor='email'>Email</label>
               <input type='email' id='email' placeholder='John.smith@gmail.com'></input>
             </div>

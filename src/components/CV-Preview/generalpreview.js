@@ -10,6 +10,7 @@ class GeneralPreview extends React.Component {
 		return (
 			<div className='gen-prev-container'>
 				<h1 className='main-name'>LY EANG CHHEANG</h1>
+				<p className='title'>DevOps</p>				
 				<p className='age'>26</p>
 				<h2 className='label'>Email</h2>
 				<p classname='text'>lyeangchheang@gmail.com</p>

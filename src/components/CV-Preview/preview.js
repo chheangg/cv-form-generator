@@ -3,6 +3,8 @@ import React from 'react';
 import '../styles/preview.scss';
 import GeneralPreview from './generalpreview';
 import DescribePreview from './describepreview';
+import EducationPreview from './educationpreview';
+import PracticalPreview from './practicalpreview';
 
 class Preview extends React.Component {
   constructor(props) {
@@ -14,12 +16,8 @@ class Preview extends React.Component {
       <div className='preview-container'>
         <GeneralPreview />
         <DescribePreview />
-        <div className='edu-prev-container'>
-
-        </div>
-        <div className='pra-prev-container'>
-
-        </div>
+        <EducationPreview />
+        <PracticalPreview />
       </div>
     )
   }

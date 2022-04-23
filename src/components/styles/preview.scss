@@ -1,6 +1,8 @@
 .preview-container {
 	display: grid;
 	position: sticky;
-	max-height: 100vh;
-	grid-template-columns: 1fr 2fr; 
+	width: 210mm;
+  height: 297mm;
+	grid-template-columns: auto 2fr;
+	border: 1px solid black;
 }
