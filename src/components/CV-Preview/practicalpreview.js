@@ -16,7 +16,7 @@ class PracticalPreview extends React.Component {
         <h1 className='big-text'>
           Work experiences
         </h1>
-        {practicalInfo.map(x => <PracticalPreviewBox info={x} key={x.key}/>)}
+        {practicalInfo[0] ? practicalInfo.map(x => <PracticalPreviewBox info={x} key={x.key}/>) : '' }
       </div>
     )
   }

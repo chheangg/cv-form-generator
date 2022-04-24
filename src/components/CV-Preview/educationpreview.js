@@ -13,7 +13,7 @@ class EducationPreview extends React.Component {
     return (
       <div className='edu-prev-container'>
         <h1 className='big-text'>Education Background</h1>
-        {educationInfo.map(x => <EducationPreviewBox info={x} key={x.key}/>)}
+        {educationInfo[0] ? educationInfo.map(x => <EducationPreviewBox info={x} key={x.key}/>) : ''}
       </div>
     )
   }
