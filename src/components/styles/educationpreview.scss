@@ -1,3 +1,25 @@
 .edu-prev-container {
   grid-column: 1 / -1;
+  padding: 1rem;
+}
+
+.edu-prev-box {
+  display: grid;
+  align-items: center;
+
+  .role {
+    color: gray;
+    font-weight: 300;
+  }
+
+  .timeframe {
+    font-size: 1.5rem;
+    font-weight: 200;
+  }
+
+  > * {
+    margin: 0;
+  }
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 0.5rem;
 }

@@ -10,7 +10,7 @@ class DescribePreview extends React.Component {
 	render() {
 		return (
 			<div className='des-prev-container'>
-				<h1 className='title'>Brief Information</h1>
+				<h1 className='big-text'>Brief Information</h1>
 				<p className='main-text'>{this.props.briefInfo}</p>
 		</div>
 		)

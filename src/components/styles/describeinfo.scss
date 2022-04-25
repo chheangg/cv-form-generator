@@ -1,0 +1,12 @@
+.des-wrapper {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  height: 100%;
+  padding: 1rem 1rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid silver;
+
+  label {
+    margin-bottom: 0.5rem;
+  }
+}

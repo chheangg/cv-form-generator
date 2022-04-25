@@ -1,0 +1,28 @@
+.form-container {
+  display: grid;
+  max-height: 297mm;
+  overflow-y: auto;
+  align-self: start;
+  grid-template-rows: auto 25vh minmax(10vh, auto) minmax(10vh, auto);
+}
+
+input {
+  padding: 0.25rem 0.5rem;
+  font-size: 1rem;
+}
+
+textarea {
+  font-size: 1rem;
+  padding: 0.25rem 0.5rem;
+}
+
+fieldset {
+  border: none;
+  padding: 0;
+  margin: 1rem 0;
+}
+
+button {
+  background: none;
+  border: none;
+}

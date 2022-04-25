@@ -12,8 +12,10 @@ class DescribeInfo extends React.Component {
 		return (
 			<fieldset className='des-container'>
 				<legend>Main Information</legend>
-				<label htmlFor='text-container'>Describe yourself briefly</label>
-				<textarea onChange={updateField} id='text-field' className='text-field'></textarea>
+				<div class='des-wrapper'>
+					<label htmlFor='text-container'>Describe yourself briefly</label>
+					<textarea onChange={updateField} id='text-field' className='text-field'></textarea>
+				</div>
 			</fieldset>
 		);
 	}

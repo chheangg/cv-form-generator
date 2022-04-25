@@ -1,10 +1,21 @@
 .gen-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  padding: 0 1rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid silver;
 
   > * {
     display: grid;
     grid-auto-rows: auto;
     width: 80%;
+  }
+
+  label {
+    margin-top: 1rem;
+  }
+
+  .right-container {
+    grid-template-rows: repeat(8, 1fr);
   }
 }

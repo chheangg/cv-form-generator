@@ -1,4 +1,22 @@
+*, *:after, *:before {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f5f5f5;
+  font-family: 'Roboto', sans-serif;
+}
+
+legend {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
 main {
   display: grid;
   grid-template-columns: 1fr auto;
+  margin: 0 20vh;
+  padding: 0 1rem;
+  gap: 1rem;
+  background-color: #f9fafb;
 }

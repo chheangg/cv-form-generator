@@ -79,10 +79,12 @@ class Main extends React.Component {
           targetList.role = input.target.value;
           break;
         case 'from':
-          targetList.from = input.target.value;
+          const dateFrom = new Date(input.target.value)
+          targetList.from = dateFrom.getFullYear();
           break;
         case 'to':
-          targetList.to = input.target.value;
+          const dateTo = new Date(input.target.value)
+          targetList.to = dateTo.getFullYear();
           break;
         default:
           break;

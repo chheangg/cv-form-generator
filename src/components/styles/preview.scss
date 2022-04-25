@@ -1,8 +1,16 @@
 .preview-container {
 	display: grid;
+  overflow-y: auto;
 	position: sticky;
 	width: 210mm;
   height: 297mm;
-	grid-template-columns: auto 2fr;
+	grid-template-columns: 1fr 2fr;
+	grid-template-rows: auto 1fr 1fr;
 	border: 1px solid black;
+}
+
+.big-text {
+	padding: 0.25rem;
+	border-top: 0.5px solid gray;
+	border-bottom: 0.5px solid gray;
 }
