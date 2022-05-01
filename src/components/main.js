@@ -107,6 +107,7 @@ function Main() {
   }
 
   const createList = (box) => {
+    box.preventDefault();
     const newState = {
       name: '',
       role: '',

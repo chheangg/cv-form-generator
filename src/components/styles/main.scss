@@ -3,8 +3,10 @@
 }
 
 body {
-  background-color: #f5f5f5;
+  background-color: #e4e4e7;
   font-family: 'Roboto', sans-serif;
+  padding: 0; 
+  margin: 0;
 }
 
 legend {
@@ -14,9 +16,45 @@ legend {
 
 main {
   display: grid;
-  grid-template-columns: 1fr auto;
+  grid-template-columns: 1fr auto ;
   margin: 0 20vh;
-  padding: 0 1rem;
+  padding: 1rem;
   gap: 1rem;
   background-color: #f9fafb;
+}
+
+.header-container {
+  background-color: #ef4444;
+  position: sticky;
+  padding: 1rem 20vh;
+
+  h1 {
+    color: white;
+    font-size: 3rem;
+    font-weight: 800;
+    margin: 0;
+  }
+}
+
+.footer-container {
+  background-color: #27272a;
+  padding: 1rem;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  justify-content: center;
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 1rem;
+
+  a {
+    display: flex;
+    gap: 0.5rem;
+    font-weight: 400;
+    font-size: 1.25rem;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+  }
 }

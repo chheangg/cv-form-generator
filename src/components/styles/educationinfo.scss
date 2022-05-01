@@ -2,7 +2,7 @@
   margin-top: 1rem;
   padding: 0.5rem 0.5rem 0.5rem 0.5rem;
   border-radius: 10px;
-  background: #4ade80;
+  background-color: #ef4444;
   box-shadow: 0 4px 4px -3px gray;
   border-bottom: 0.5px solid gray;
 }
@@ -17,7 +17,8 @@
 
   h2 {
     margin: 0;
-    border-bottom: 3px solid black;
+    color: white;
+    border-bottom: 3px solid white;
   }
 
   button {
@@ -28,12 +29,12 @@
 .edu-create-box {
   display: grid;
   font-weight: 500;
-  background-color: #86efac;
+  background-color: #f87171;
   border-radius: 5px;
   margin-bottom: 0.5rem;
   align-items: center;  
   box-shadow: 0 5px 4px -3px black;
-  padding: 1rem 0.5rem;
+  padding: 1rem 0.25rem;
   gap: 1rem;
   grid-template-columns: auto auto auto auto 0.5fr;
   grid-template-rows: 1fr 1fr;
@@ -48,6 +49,7 @@
   }
 
   label {
+    color: white;
     justify-self: end;
   }
 
@@ -85,9 +87,11 @@
 }
 
 #edu-list {
-  width: 2.25rem;
-  height: 2.25rem;
-  background-image: url('../assets/plus-box-multiple.svg');
+  background-color: #dc2626;
+  box-shadow: 0 5px 5px -3px black;
+  padding: 0.25rem;
+  border-radius: 5px;
+  pointer-events: all;
   background-size: contain;
 }
 
