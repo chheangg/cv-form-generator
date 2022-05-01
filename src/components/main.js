@@ -25,6 +25,7 @@ function Main() {
   const [describeInfo, setDescribeInfo] = useState('');
   const [educationInfo, setEducationInfo] = useState([]);
   const [practicalInfo, setPracticalInfo] = useState([]);
+  const [image, setImage] = useState(null);
 
   const updateField = (input) => {
     switch (input.target.id) {
@@ -84,6 +85,7 @@ function Main() {
       list = practicalInfo;
     }
 
+
     switch (input.target.id) {
       case 'name':
         targetList.name = input.target.value;
@@ -135,6 +137,7 @@ function Main() {
           deleteList,
           updateList,
           createList,
+          setImage,
         }
       }
       educationInfo={educationInfo}
@@ -155,6 +158,7 @@ function Main() {
         briefInfo={describeInfo}
         educationInfo={educationInfo}
         practicalInfo={practicalInfo}
+        image={image}
       /> 
     </main>
   )

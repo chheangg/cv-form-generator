@@ -5,12 +5,12 @@ import EducationPreview from './educationpreview';
 import PracticalPreview from './practicalpreview';
 
 function Preview(props) {
-  const {generalInfo, briefInfo, educationInfo, practicalInfo} = props;
+  const {generalInfo, briefInfo, educationInfo, practicalInfo, image} = props;
   console.log(practicalInfo)
   return (
     <div className='preview-container'>
       <GeneralPreview user={generalInfo}/>
-      <DescribePreview briefInfo={briefInfo}/>
+      <DescribePreview briefInfo={briefInfo} image={image}/>
       <EducationPreview educationInfo={educationInfo}/>
       <PracticalPreview practicalInfo={practicalInfo}/>
     </div>

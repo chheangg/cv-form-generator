@@ -9,7 +9,7 @@ function Form(props) {
   return (
     <form className='form-container'>
       <GeneralInfo updateField={utility.updateField}/>
-      <DescribeInfo updateField={utility.updateField}/>
+      <DescribeInfo updateField={utility.updateField} setImage={utility.setImage}/>
       <EducationInfo utility={utility} educationInfo={educationInfo}/>
       <PracticalInfo utility={utility} practicalInfo={practicalInfo}/>
     </form>

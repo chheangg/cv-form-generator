@@ -1,4 +1,5 @@
 import '../styles/describeinfo.scss';
+import ImageUploader from './uploadImage';
 
 function DescribeInfo(props) {
 	const {updateField} = props
@@ -8,6 +9,7 @@ function DescribeInfo(props) {
 			<div className='des-wrapper'>
 				<label htmlFor='text-container'>Describe yourself briefly</label>
 				<textarea onChange={updateField} id='text-field' className='text-field'></textarea>
+				<ImageUploader setImage={props.setImage} />
 			</div>
 		</fieldset>
 	);

@@ -7,6 +7,18 @@
   border-bottom: 1px solid silver;
 
   label {
-    margin-bottom: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .upload-container label {
+    display: block;
+    padding: 1rem 0;
+    font-weight: 600;
+  }
+
+  input {
+    display: block;
+    margin: 0;
+    padding: 0;
   }
 }
