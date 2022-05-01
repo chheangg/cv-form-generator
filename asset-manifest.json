@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/cv-form-generator/static/css/main.cd5d982d.css",
-    "main.js": "/cv-form-generator/static/js/main.91067675.js",
+    "main.css": "/cv-form-generator/static/css/main.df10f6cd.css",
+    "main.js": "/cv-form-generator/static/js/main.2dcdd5bf.js",
     "static/js/787.34a20539.chunk.js": "/cv-form-generator/static/js/787.34a20539.chunk.js",
     "index.html": "/cv-form-generator/index.html",
-    "static/media/plus-box-multiple.svg": "/cv-form-generator/static/media/plus-box-multiple.ef9e35f7c4e615c49a00.svg",
-    "main.cd5d982d.css.map": "/cv-form-generator/static/css/main.cd5d982d.css.map",
-    "main.91067675.js.map": "/cv-form-generator/static/js/main.91067675.js.map",
+    "main.df10f6cd.css.map": "/cv-form-generator/static/css/main.df10f6cd.css.map",
+    "main.2dcdd5bf.js.map": "/cv-form-generator/static/js/main.2dcdd5bf.js.map",
     "787.34a20539.chunk.js.map": "/cv-form-generator/static/js/787.34a20539.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cd5d982d.css",
-    "static/js/main.91067675.js"
+    "static/css/main.df10f6cd.css",
+    "static/js/main.2dcdd5bf.js"
   ]
 }
